@@ -1,0 +1,64 @@
+\documentclass[oneside]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{polski}
+\usepackage{fancyhdr}
+\usepackage{geometry}
+\usepackage{multicol}
+\usepackage{lastpage}
+\usepackage{graphicx}
+\usepackage{amsmath}
+
+\geometry{margin=2cm}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{AGH WEAIiIB MTM}
+\fancyhead[R]{\thepage\ /\ \pageref{LastPage}}
+\fancyhead[C]{\today}
+
+\begin{document}
+
+% --- Tabela tytułowa ---
+\begin{table}[h]
+\centering
+\begin{tabular}{lcr}
+sem. V                  & \textbf{Elektroniczna Aparatura Medyczna} & Autorzy:  \\
+Grupa I                 & Raport z Laboratorium                      & XYZ (XXXXXX)\\
+(pon. 13:15)            &                                           & XYZ (XXXXXX) \\ 
+                        &                                           & \\
+\hline
+\end{tabular}
+\end{table}
+
+% ===============           TYTUL SPRAWOZDANIA
+\begin{center}
+    {\LARGE \textbf{Wtórnik napięciowy, wzmacniacz nieodwracający, wzmacniacz odwracający}}
+\end{center}
+
+% ===============           TRESC 
+\begin{multicols}{2}
+% ===============           ROZDZIAL 1 
+\section{ROZDZIAL PIERWSZY}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse lacinia eros in lobortis varius. Mauris vel sagittis diam. Sed porttitor dolor sed quam ullamcorper, id interdum urna ornare. Vestibulum accumsan efficitur risus at pellentesque. Nam dapibus pulvinar tortor, quis imperdiet ligula.
+
+\begin{center}
+    \includegraphics[width=0.95\linewidth]{zdj.png}
+\end{center}
+
+\noindent Suspendisse sollicitudin, dui in feugiat consequat, neque enim iaculis enim, in tristique tellus neque eget lorem. Morbi urna dolor, aliquet consequat aliquet vel, fringilla non arcu.
+
+\vspace{10pt}
+\noindent Pellentesque et ex dapibus, elementum tellus vitae, cursus nibh. Vestibulum non commodo leo, vitae fringilla enim. Etiam vestibulum nunc in nisi gravida, id sagittis odio lacinia. Curabitur massa velit, semper at viverra vehicula, viverra vitae risus. Praesent mattis efficitur mauris ac consectetur. In arcu sapien, maximus ac nibh quis, mattis gravida lacus. Nunc diam libero, condimentum at mi at, dignissim cursus erat.
+
+\newcolumn
+\section{ROZDZIAL DRUGI}
+\noindent Morbi imperdiet neque ut lacus facilisis ullamcorper. Quisque cursus orci quis quam bibendum varius. Duis luctus fermentum semper. Integer pretium porta ex, quis cursus augue sodales in. Aenean consectetur dolor ac arcu volutpat suscipit. Aliquam erat volutpat. Phasellus et arcu nec dui sagittis efficitur. Proin id vulputate risus. Donec fringilla gravida volutpat. Integer diam urna, molestie ultrices nulla non, finibus placerat turpis.
+
+\section{ROZDZIAL TRZECI}
+Praesent vulputate blandit accumsan. Ut finibus congue eros, vel gravida lectus aliquam id. Suspendisse sit amet cursus quam, ut egestas nibh. Donec tincidunt quam quis est lacinia gravida. Integer dapibus massa lectus. Mauris sit amet tortor mauris. Praesent ligula lorem, blandit bibendum lorem nec, venenatis bibendum dui. Pellentesque imperdiet turpis eget nisl consequat pharetra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nullam at faucibus orci. Phasellus at nunc non felis tincidunt congue. Nunc tincidunt convallis efficitur. Duis posuere efficitur tellus nec molestie. Morbi enim ex, tristique a gravida non, posuere quis arcu. Morbi pellentesque massa nec sodales consectetur.
+
+\end{multicols}
+
+\end{document}

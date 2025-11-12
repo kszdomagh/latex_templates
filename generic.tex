@@ -1,0 +1,70 @@
+\documentclass[oneside, twocolumn]{mwart}  % article document, two-column layout
+
+\usepackage[T1]{fontenc}        % font encoding
+\usepackage[utf8]{inputenc}     % source file encoding
+\usepackage[polish]{babel}     % language settings
+\usepackage{fancyhdr}           % custom headers and footers
+\usepackage[a4paper, top=0.8in, bottom=0.6in, left=0.6in, right=0.6in, heightrounded]{geometry} % page layout
+\usepackage{amsthm}             % theorem environments
+\usepackage{graphicx}           % graphics support
+\usepackage{float}              % improved figure/table placement
+\usepackage{listings}           % source code listings
+\usepackage{amsmath}            % advanced math typesetting
+
+\renewcommand{\figurename}{Fig.} % short figure caption prefix
+
+
+
+\title{Generic Template}
+\author{Krzysztof Domański}
+
+
+% ============   HEADERY
+\begin{document}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{LEWY HEADER}
+\fancyhead[R]{PRAWY HEADER}
+\fancyhead[C]{ŚRODKOWY HEADER}
+
+
+
+\maketitle
+\thispagestyle{fancy} % HEADERY NA STRONIE TYTULOWEJ
+
+
+
+% ============   STRESZCZENIE
+\begin{abstract}
+    \noindent \textbf{Nam dolor justo, efficitur at urna vel, porta hendrerit ipsum. Phasellus euismod interdum turpis, eget pulvinar tortor lobortis nec. Pellentesque scelerisque id arcu vitae faucibus. Donec porttitor molestie tortor, at luctus nisi tristique vel. Aliquam commodo non urna eu ultricies. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In non fringilla dui, eget pellentesque velit. Phasellus purus lectus, hendrerit vel ipsum ac, vehicula vestibulum mauris. Cras ac viverra metus.}
+\end{abstract}
+
+% ============   ROZDZIAŁ PIERWSZY
+\section{Lorem ipsum}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce auctor volutpat risus, a euismod elit gravida ac. Morbi pulvinar turpis et venenatis aliquet. Duis rhoncus pellentesque magna, condimentum cursus nibh aliquam cursus. Nulla scelerisque lobortis urna. Maecenas sed tortor odio. Curabitur porttitor arcu nec velit tempor, eget consectetur erat dapibus. Nullam rutrum consectetur nisl. Pellentesque tincidunt porttitor elit, in gravida dui feugiat et.
+
+\section{Duis pellentesque lacinia purus}
+
+Duis pellentesque lacinia purus, vitae auctor risus ultricies nec. Vestibulum maximus turpis ut massa pharetra, vitae malesuada diam suscipit. Phasellus luctus euismod vehicula. Integer luctus, lacus tempor luctus tincidunt, erat sapien dignissim nibh, at luctus erat enim a est.
+
+\vspace{10pt}
+
+Mauris placerat mattis sagittis. Donec sollicitudin dolor purus, ac feugiat nisl pulvinar ac. Etiam hendrerit sem in ante condimentum dapibus. Sed sit amet massa at purus interdum porta. Aliquam ac tellus dolor. Etiam cursus ipsum suscipit odio ultrices, eget rhoncus lectus tempus. Duis sodales fringilla mi, id vestibulum quam tincidunt et. Vivamus sed aliquet augue, ut fringilla turpis.
+
+\newpage
+\section{Nam posuere finibus semper}
+
+Nam posuere finibus semper. Fusce pharetra iaculis augue accumsan porttitor. Nunc metus massa, ornare quis scelerisque vel, gravida vitae nulla. In felis mauris, vehicula ut suscipit eget, porttitor in tortor. Aliquam erat volutpat. Nullam egestas posuere sodales. Suspendisse vestibulum tristique leo, ut bibendum metus aliquet ac. Aenean varius eleifend tellus at convallis. In hac habitasse platea dictumst.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=1\linewidth]{zdj.png}
+    \caption{:3}
+\end{figure}
+
+Morbi leo metus, maximus ut massa feugiat, faucibus sollicitudin dolor. Suspendisse lacinia neque quis purus mollis aliquet. Suspendisse placerat ultricies porttitor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+
+
+
+\end{document}
